@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="show-about display-none">
+    <div>
+        <button class="close-btn" id="close-about">X</button>
+        <p id="about-data"></p>
+    </div>
+</div>
+<div class="green display-none">
+</div>
+<div class="container">
+    <div class="add-todo">
+        <input id="todo-title" placeholder="Todo title"/>
+        <input id="todo-date" type="date"/>
+        <button id="add-btn">Add</button>
+    </div>
+    <div class="all-work">
+        <div class="box" id="tasks">
+            <h3>Tasks</h3>
+            <div class="works" id="tasks-works"></div>
+        </div>
+        <div class="box" id="doing">
+            <h3>Doing</h3>
+            <div class="works" id="doing-works"></div>
+        </div>
+
+        <div class="box" id="completed">
+            <h3>Completed</h3>
+            <div class="works" id="completed-works"></div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
